@@ -1,0 +1,202 @@
+@media only screen and (max-width: 1050px) {
+  main {
+    height: 100vh;
+    grid-column: repeat(14, 1fr);
+    grid-row: repeat(5, 1fr);
+  }
+  main .logo-and-nav-div {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 14;
+    height: 450px;
+    position: relative;
+  }
+  main .logo-and-nav-div .header-arrows {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    width: 25%;
+    height: 15%;
+  }
+  main .logo-and-nav-div .header-arrows .prev {
+    cursor: pointer;
+    padding: 12%;
+  }
+  main .logo-and-nav-div .header-arrows .next {
+    cursor: pointer;
+    padding: 12%;
+  }
+  main .main-statement {
+    grid-column: 1 / span 14;
+    grid-row: 2 / span 1;
+    height: 350px;
+  }
+  main .main-statement h1 {
+    font-size: 2.5rem;
+  }
+  main .main-statement p {
+    font-size: 0.9rem;
+  }
+  main .main-statement .shop-CTA h3 {
+    font-size: 0.9rem;
+  }
+  main .dark-furniture {
+    grid-column: 1 / span 14;
+    grid-row: 3 / span 1;
+    height: 350px;
+  }
+  main .about {
+    grid-column: 1 / span 14;
+    grid-row: 4 / span 1;
+    padding: 0px 5rem;
+    height: 300px;
+  }
+  main .about h1 {
+    font-size: 1.2rem;
+  }
+  main .about p {
+    font-size: 0.9rem;
+  }
+  main .light-furniture {
+    grid-column: 1 / span 14;
+    grid-row: 5 / span 1;
+    height: 350px;
+  }
+  main .arrows {
+    display: none;
+  }
+  .header-arrows {
+    display: none;
+  }
+  ol li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  html {
+    font-size: 13px;
+  }
+  ol li {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  html {
+    font-size: 12px;
+  }
+  main .logo-and-nav-div {
+    background-image: url("Assets/mobile-image-hero-1.jpg");
+  }
+  main .logo-and-nav-div.slide-1 {
+    /*To be added and removed with Javascript*/
+    background-image: url("Assets/mobile-image-hero-1.jpg");
+  }
+  main .logo-and-nav-div.slide-2 {
+    /*To be added and removed with Javascript*/
+    background-image: url("Assets/mobile-image-hero-2.jpg");
+  }
+  main .logo-and-nav-div.slide-3 {
+    /*To be added and removed with Javascript*/
+    background-image: url("Assets/mobile-image-hero-3.jpg");
+  }
+  .hamburger-container {
+    display: block;
+    margin-right: 38%;
+  }
+  .hamburger-container.active {
+    margin-right: 20%;
+    background-image: url("Assets/icon-close.svg");
+  }
+  ol li {
+    display: none;
+  }
+  ol li.active {
+    display: block;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .hamburger-container.active {
+    margin-right: 15%;
+  }
+  main .logo-and-nav-div .header-arrows {
+    width: 25%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hamburger-container.active {
+    margin-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  html {
+    font-size: 11.5px;
+  }
+  main .main-statement h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .hamburger-container {
+    margin-right: 30%;
+  }
+  .hamburger-container.active {
+    margin-right: 7%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hamburger-container.active {
+    margin-right: 13%;
+  }
+  .logo-nav-items {
+    padding: 40px 10px 40px 20px;
+  }
+  ol li {
+    margin-right: 15%;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  ol li {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  html {
+    font-size: 9px;
+  }
+  .hamburger-container.active {
+    margin-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  html {
+    font-size: 9px;
+  }
+  .hamburger-container.active {
+    margin-right: 8%;
+  }
+  ol li {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=mediaqueries.css.map */
